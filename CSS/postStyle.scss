@@ -1,0 +1,85 @@
+body {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.575)),
+    url(../Images/hintersee-3601004_1920.jpg);
+  min-height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  perspective: 1000px;
+}
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  z-index: 0;
+  height: 100%;
+  .content {
+    width: 100%;
+    height: 100%;
+    .card-wrapper {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      width: 100%;
+      flex-wrap: wrap;
+    }
+
+    .card-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      width: 350px;
+      height: 500px;
+      transform-style: preserve-3d;
+      .card {
+        transform-style: preserve-3d;
+        width: 300px;
+        min-height: 430px;
+        position: relative;
+        border-radius: 8px;
+        overflow: hidden;
+        box-shadow: 1px 1px 16px 8px rgba(0, 0, 0, 0.418);
+        .img-container {
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          img {
+            width: 100%;
+          }
+        }
+        .overlay {
+          position: absolute;
+          background-color: rgba(0, 0, 0, 0.801);
+          width: 100%;
+          height: 65px;
+          bottom: 0;
+          display: flex;
+          align-items: center;
+          h3 {
+            color: white;
+            font-size: 2rem;
+            letter-spacing: 3px;
+            margin-left: 15px;
+          }
+        }
+      }
+    }
+  }
+
+  .navigate {
+    align-self: flex-start;
+    width: 200px;
+    margin-bottom: 2em;
+    margin-left: 2em;
+    margin-top: 2em;
+    .content {
+      img {
+        width: 20%;
+        margin-right: 5px;
+      }
+    }
+  }
+}

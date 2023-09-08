@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planet Earth</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/nav.css">
+</head>
+
+<body>
+
+
+    <section class="hero-section">
+        <div class="navigation ">
+            <nav>
+                <div class="logo">
+                    <div class="img-container">
+                        <img src="./Images/Icon.svg" alt="">
+                    </div>
+                </div>
+                <div class="nav-item-container" style="    justify-content: flex-end;">
+
+                    <div class="nav-items v-nav">
+                        <ul>
+
+                            <li><a href="#">Resources</a></li>
+                            <li><a href="#">Gear</a></li>
+                            <li><a href="#">About us</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="burger " onclick="burgerClick()">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+            </nav>
+        </div>
+        <div class="video-container">
+            <video src="./Images/video1.mp4" loop muted autoplay></video>
+
+        </div>
+        <div class="content">
+            <div class="img-container">
+                <img src="./Images/Title.svg" alt="">
+            </div>
+            <a class="button" href="./Posts.html">EXPLORE</a>
+        </div>
+
+
+    </section>
+</body>
+<script src="./JS/nav.js"></script>
+<script>
+    function burgerClick() {
+        h_nav = document.querySelector(".navigation");
+        h_nav.classList.toggle("home-nav");
+    }
+</script>
+
+</html>

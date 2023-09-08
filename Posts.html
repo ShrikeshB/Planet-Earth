@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planet Earth | Posts</title>
+    <link rel="stylesheet" href="./CSS/nav.css">
+    <link rel="stylesheet" href="./CSS/postStyle.css">
+</head>
+
+<body>
+    <section class="hero-section">
+        <div class="navigation ">
+            <nav>
+                <div class="logo" onclick="home()">
+                    <div class="img-container">
+                        <img src="./Images/Icon.svg" alt="">
+                    </div>
+                </div>
+                <div class="nav-item-container">
+                    <form action="#" class="Search-container v-search">
+                        <input type="text" placeholder="Japan..">
+                        <input type="submit" value="search" class="search-btn">
+                    </form>
+                    <div class="nav-items v-nav">
+                        <ul>
+
+                            <li><a href="#">Resources</a></li>
+                            <li><a href="#">Gear</a></li>
+                            <li><a href="#">About us</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="burger ">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+            </nav>
+        </div>
+
+        <div class="content">
+            <div class="card-wrapper">
+                <div class="card-container" onmouseenter="enter(this,event)" onmouseleave="out(this, event)"
+                    onmousemove="changethings(this, event, 55)">
+                    <a href="./PostDetails.html" class="card">
+                        <div class="img-container">
+                            <img src="./Images/Africa_Card.png" alt="">
+                        </div>
+                        <div class="overlay">
+                            <h3>Africa</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="card-container" onmouseenter="enter(this,event)" onmouseleave="out(this, event)"
+                    onmousemove="changethings(this, event, 20)">
+                    <a href="./PostDetails.html" class="card">
+                        <div class="img-container">
+                            <img src="./Images/Japan/Japan_Card.png" alt="">
+                        </div>
+                        <div class=" overlay">
+                            <h3>Japan</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="card-container" onmouseenter="enter(this,event)" onmouseleave="out(this, event)"
+                    onmousemove="changethings(this, event, 20)">
+                    <a href="./PostDetails.html" class="card">
+                        <div class="img-container">
+                            <img src="./Images/Norway/1.jpg" alt="">
+                        </div>
+                        <div class="overlay">
+                            <h3>Norway</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="card-container" onmouseenter="enter(this,event)" onmouseleave="out(this, event)"
+                    onmousemove="changethings(this, event, 55)">
+                    <a href="./PostDetails.html" class="card">
+                        <div class="img-container">
+                            <img src="./Images/Thailand_Card.png" alt="">
+                        </div>
+                        <div class="overlay">
+                            <h3>Thailand</h3>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="navigate">
+            <div class="content">
+                <a href="#">
+                    <img src="./Images/Previous.svg" alt="">
+                </a>
+                <a href="#">
+                    <img src="./Images/Next.svg" alt="">
+                </a>
+            </div>
+        </div>
+    </section>
+</body>
+<script src="./JS/nav.js"></script>
+<script src="./JS/perspective.js"></script>
+
+</html>

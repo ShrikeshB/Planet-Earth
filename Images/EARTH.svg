@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="852" height="212" viewBox="0 0 852 212">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #fff;
+        stroke-width: 2px;
+        font-size: 149px;
+        font-family: Poppins-Black, Poppins;
+        font-weight: 800;
+        letter-spacing: 0.58em;
+      }
+    </style>
+  </defs>
+  <text id="EARTH" class="cls-1" transform="translate(2 158)"><tspan x="0" y="0">EARTH</tspan></text>
+</svg>
