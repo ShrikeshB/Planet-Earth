@@ -1,12 +1,12 @@
 # PlanetEarth
 
-# what this website is about:
+## what this website is about:
 * It is displays the popular places to visit in particular country.
 * It also show what resources/gear needed to carry while visiting these places.
 >  note:
 > It is only frontend part.
 
-Pages:
+## Pages:
 
 ![SS](https://github.com/ShrikeshB/PlanetEarth/assets/105501579/d847e09b-a958-423e-aaa7-b05f9134d4a8)
 
