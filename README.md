@@ -1,9 +1,10 @@
 # PlanetEarth
 
 # what this website is about:
-* It is only frontend part.
 * It is displays the popular places to visit in particular country.
 * It also show what resources/gear needed to carry while visiting these places.
+>  note:
+> It is only frontend part.
 
 Pages:
 
