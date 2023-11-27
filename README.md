@@ -1,10 +1,10 @@
 # PlanetEarth
 
 ## what this website is about:
-* It is displays the popular places to visit in particular country.
-* It also show what resources/gear needed to carry while visiting these places.
+* It showcases the popular tourist destinations within a specific country.
+* It should also indicate the necessary resources and gear to bring when visiting these locations.
 >  note:
-> It is only frontend part.
+> Code files are exclusively pertains to the frontend aspect.
 
 ## Pages:
 
